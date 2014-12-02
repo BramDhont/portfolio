@@ -1,0 +1,31 @@
+
+body, header, nav, footer {
+	background-color: #000;
+}
+a {
+	color:#287199;
+}
+ul {
+	margin:30px;
+}
+ul li {
+	background-color:#100991;
+}
+.container 
+{
+	background-color: #000;
+	color:#888;
+	margin:10px;
+}
+.header {
+	position:relative;
+	background-color: #788;
+	color:#222;
+	margin:10px;
+}
+.content {
+	margin:10px;
+}
+.footer {
+	margin:10px;
+}
