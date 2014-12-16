@@ -6,10 +6,10 @@ a {
 	color:#287199;
 }
 ul {
-	margin:30px;
+	margin: 0;
 }
 ul li {
-	background-color:#100991;
+	list-style-type: none;
 }
 .container 
 {
@@ -25,6 +25,11 @@ ul li {
 }
 .content {
 	margin:10px;
+}
+h2 {
+	font-size: 30px;
+	margin: 0;
+	padding: 5px;
 }
 .footer {
 	margin:10px;
