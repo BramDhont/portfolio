@@ -7,7 +7,6 @@ $(document).ready(function (){
     		$('#col-5').animate({left:'40%', opacity: '+1'},1300);
     		$('#col-6').animate({left:'41%', opacity: '+1'},1500);
     		$('#col-7').animate({left:'42%', opacity: '+1'},1700);
-            $('#col-8').animate({left:'43%', opacity: '+1'},1900);
             $('#col-slide-1').hide();
             $('#col-slide-2').hide();
             $('#col-slide-3').hide();
@@ -15,7 +14,6 @@ $(document).ready(function (){
             $('#col-slide-5').hide();
             $('#col-slide-6').hide();
             $('#col-slide-7').hide();
-            $('#col-slide-8').hide();
 
             function hanger(){
                 var speed = 100;
@@ -61,10 +59,6 @@ $(document).ready(function (){
         });
         $('#col-7').click(function() {
             $('#col-slide-7').slideToggle(200);
-            hanger();
-        });
-        $('#col-8').click(function() {
-            $('#col-slide-8').slideToggle(200);
             hanger();
         });
 	});
