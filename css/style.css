@@ -1,0 +1,26 @@
+	body {
+		font-family: 'Slabo 25px', serif;
+		color:#fff;
+		background-color:#000;
+	}
+	a {
+		color:#999;
+	}
+
+	.container {
+		
+	}
+	.element p {
+		color:#EEE;
+	}
+	#col-1,#col-2,#col-3,#col-4,#col-5,#col-6,#col-7,#col-8,#col-9,#col-10 {
+		cursor: pointer;
+		font-size:25px;
+		position:relative;
+		opacity:0;
+	}
+	#col-slide-1,#col-slide-2,#col-slide-3,#col-slide-4,#col-slide-5,#col-slide-6,#col-slide-7,#col-slide-8,#col-slide-9,#col-slide-10 {
+		font-size:15px;
+		position:relative;
+		opacity:1;
+	}
